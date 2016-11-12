@@ -69,6 +69,7 @@ gas.TPX = 120+273.15, ct.one_atm, "CO2:%.4f, H2O:%.4f, O2:%.4f, N2:%.4f" % (Y_CO
 # 输出结果
 print("%s" % fuel_index)
 print("过量空气系数：%5.2f" % alpha)
+print("烟气量：%10.2f Nm^3/h" % (Q_y*3600))
 print("\n\n烟气成分：")
 print("-----------------------------------------------------")
 print("{0:>10s} {1:>18s} {2:>18s}".format("species", "Vol Fraction", "Mass Fraction"))
